@@ -21,7 +21,7 @@ body {
 }
 
 .header {
-  background-image: url("back2.jpg");
+  background-color: darkblue;
   text-align: center;
   border: 1px solid;
 }

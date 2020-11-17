@@ -1,1 +1,66 @@
+body {
+  background-image: url("background.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+/* Sets the background color of each webpage to light blue. */
 
+.entireheader {
+  position: static;
+  z-index: 1;
+}
+
+.search {
+  border: 1px solid;
+  margin-top: -120px;
+  margin-right: 970px;
+  position: static;
+  z-index: 3;
+}
+
+.smallmove{
+  margin-top: 100px;
+}
+
+.header {
+  background-image: url("back2.jpg");
+  text-align: center;
+  border: 1px solid;
+}
+/* Aligns header to the center, adds dark blue text color, sets family font type as Cambria Math, sans-serif. Also adds a solid border with a teal background. Creates template header for each page in website. */
+
+.navbar {
+  background-color: cadetblue;
+  overflow: auto;
+  border: 1px solid;
+}
+/* Sets the background color of navbar to olivedrab with the overflow set to auto. This is applied to each page on the website. Set to auto on overflow to include a scroll bar when needed. Navbar style referenced & modified from w3schools: https://www.w3schools.com/howto/howto_js_topnav.asp */
+
+
+.nav {
+  border: 1px solid;
+  display: inline;
+  color: black;
+  font-family: "Cambria Math",sans-serif;
+  text-align: left;
+  padding: 5px 10px;
+}
+/* Aligns the text to the left, sets the font-family to Cambria math, sans-serif. Sets the text color to white, displayed inline and with added padding of 10px and 41 px. Navbar style influenced/referenced & modified from w3schools: https://www.w3schools.com/howto/howto_js_topnav.asp */
+
+.nav:hover {
+  background-color: lightblue;
+}
+/* Adds a lightgreen color to the hover portion, when hovering over each content on the navbar. Navbar style referenced & modified from w3schools: https://www.w3schools.com/howto/howto_js_topnav.asp */
+
+
+.textcolor {
+  color: #003333;
+  font-family: Candara;
+}
+
+.headcolor {
+  color: #003366;
+  font-family: Candara;
+  text-decoration: underline;
+  
+}

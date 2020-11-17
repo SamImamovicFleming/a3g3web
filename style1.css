@@ -1,7 +1,5 @@
 body {
-  background-image: url("background.jpg");
-  background-repeat:no-repeat;
-  background-size: cover;
+  background-color: lightblue;
 }
 /* Sets the background color of each webpage to light blue. */
 
